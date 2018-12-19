@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import ButtonPanel from "./ButtonPanel";
 import ItemList from "./ItemList";
+import RequestData from "./RequestData";
+import Form from "./Form";
 
 class App extends Component {
   handleClick = buttonName => {
@@ -27,7 +29,9 @@ class App extends Component {
         <ButtonPanel clickHandler={this.handleClick} />
         <button onClick={this.handleClick1}>Click me1</button>
         <button onClick={this.handleClick3}>Click me2</button>
-        <ItemList/>
+        <ItemList />
+        <RequestData url="/test.json" />
+        <Form />
       </div>
     );
   }
