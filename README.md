@@ -1,3 +1,7 @@
+## vs code js 代码格式化
+esLint + prettier 不要装js-beautify
+然后设置 "prettier.eslintIntegration": true
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
