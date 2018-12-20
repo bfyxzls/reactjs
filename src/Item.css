@@ -1,0 +1,9 @@
+.list {
+  border: 1px sandybrown dashed;
+  background-color:darkgray;
+  margin: 5px;
+}
+.list span{
+ width:100px;
+ padding:5px;
+}
